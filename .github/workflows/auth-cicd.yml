@@ -8,7 +8,7 @@ on:
       - '.github/workflows/auth-cicd.yml'
       - 'deployments/auth-backend-deployment.yaml'
   pull_request:
-    branches: [ "lofin-fb" ]
+    branches: [ "login-fb" ]
     paths:
       - 'auth-backend/**'
 
